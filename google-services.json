@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "694394043091",
+    "firebase_url": "https://jima-302901-default-rtdb.firebaseio.com",
+    "project_id": "jima-302901",
+    "storage_bucket": "jima-302901.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694394043091:android:1a065aba0d2581d3d13226",
+        "android_client_info": {
+          "package_name": "bkz.app.jima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694394043091-6sa475eds999g8b00jbgks7jb88hig0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bkz.app.jima",
+            "certificate_hash": "9979177d5a54a0506228bf17edc79b17a71d9500"
+          }
+        },
+        {
+          "client_id": "694394043091-rhskutb2tn93mgi3u0ieo7dkfesj6abi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bkz.app.jima",
+            "certificate_hash": "7c027db9d5291a418455a39094a05a71e05720b8"
+          }
+        },
+        {
+          "client_id": "694394043091-g13sguol5qb1efrf77e4jlf0fregs7mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhLYv9O3qBBBPOLyQ3Rz_jT78ne2LxvI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694394043091-g13sguol5qb1efrf77e4jlf0fregs7mg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
