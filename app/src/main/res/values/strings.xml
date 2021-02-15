@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Jima</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_re_password">Re_Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="different_password">Password must be the same</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="facebook_app_id">433627701174608</string>
+    <string name="fb_login_protocol_scheme">fb433627701174608</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="action_settings">setting</string>
+    <string name="forgot_password"><a href="">forgot password?</a> </string>
+    <string name="send">send</string>
+    <string name="resend">Resend</string>
+    <string name="resetinfo_emaillink">Enter the email to send reset link</string>
+    <string name="resetinf_sent_to">"Sent to :"</string>
+    <string name="resetinf_sent_to_two">": check email to reset password link"</string>
+    <string name="name">Enter First and Last Name</string>
+    <string name="save_profile">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="profile">Profile</string>
+    <string name="profile_email">Email:</string>
+    <string name="profile_information">Profile Infomation:</string>
+    <string name="profile_name">Name:</string>
+    <string name="profile_edit_profile">Edit Profile</string>
+    <string name="empty_string">empty</string>
+
+</resources>
