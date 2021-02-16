@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         Bundle extras = this.getIntent().getExtras();
         if (extras != null) {
             String value = extras.getString("userId");
-            mainActivityViewModel.loadUserFromFireBase(value);
+           // mainActivityViewModel.loadUserFromFireBase(value);
         }
 
         String name = mainActivityViewModel.getUser().getValue().getUserName();
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         Bundle extras = this.getIntent().getExtras();
         if (extras != null) {
             String value = extras.getString("userId");
-            mainActivityViewModel.loadUserFromFireBase(value);
+          //  mainActivityViewModel.loadUserFromFireBase(value);
             //The key argument here must match that used in the other activity
         }
     }
