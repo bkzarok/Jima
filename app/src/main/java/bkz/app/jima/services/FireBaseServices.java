@@ -30,12 +30,11 @@ public class FireBaseServices {
         database = FirebaseDatabase.getInstance();
         storage = FirebaseStorage.getInstance();
         myRef = FirebaseDatabase.getInstance().getReference();
-
     }
 
     public void addNewUser(User user)
     {
-        myRef.child("users").push().setValue(user)
+       myRef.child("users").child(user.getUserId()).setValue(user)
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void aVoid) {
@@ -69,14 +68,12 @@ public class FireBaseServices {
 
     public User getUser(String userId)
     {
-
         myRef.child("users").child(userId)
                 .addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                user = snapshot.getValue(User.class);
                 Log.d("USER GET USER", "Successfully get user");
-
             }
 
             @Override

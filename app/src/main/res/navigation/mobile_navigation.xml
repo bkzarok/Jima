@@ -7,24 +7,24 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="bkz.app.jima.ui.home.HomeFragment"
+        android:name="bkz.app.jima.main_ui.contacts.ContactsFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_contacts" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="bkz.app.jima.ui.dashboard.DashboardFragment"
+        android:name="bkz.app.jima.main_ui.global.GlobalFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_global" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="bkz.app.jima.ui.notifications.NotificationsFragment"
+        android:name="bkz.app.jima.main_ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="bkz.app.jima.ui.profile.Profile"
+        android:name="bkz.app.jima.main_ui.profile.Profile"
         android:label="@string/profile"
         tools:layout="@layout/profile_fragment" />
 </navigation>

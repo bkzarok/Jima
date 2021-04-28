@@ -2,31 +2,46 @@ package bkz.app.jima.data.model;
 
 import androidx.annotation.Nullable;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 
 public class User {
     String userId;
-    String userName;
+    String email;
     String name;
+    String userName;
+    String pictureUrl;
     String accountId;
-    Contact[] contacts;
+    HashMap<String,Contact> contacts;
 
-    public User(String userId, String userName,@Nullable String name,
-                String accountId,@Nullable Contact[] contacts)
+    public User(String userId, @Nullable String accountId,@Nullable String email,
+                @Nullable String userName,@Nullable String name,
+                @Nullable  String pictureUrl,@Nullable HashMap<String,Contact> contacts)
     {
+
         this.userId = userId;
-        this.userName = userName;
-        this.name = name;
         this.accountId = accountId;
+        this.userName = userName;
+        this.email = email;
+        this.name = name;
+        this.pictureUrl = pictureUrl;
         this.contacts = contacts;
     }
 
+    public User()
+    {}
     public String getUserId(){return  userId;}
 
-    public String getUserName(){return  userName;}
+    public String getEmail(){return  email;}
 
     public String getName(){return name;}
 
+    public String getPictureUrl(){return  pictureUrl;}
+
     public  String getAccountId(){return accountId; }
 
-    public Contact[] getContacts(){return contacts;}
+    public String getUserName(){return userName;}
+    public HashMap<String,Contact> getContacts(){return contacts;}
 }

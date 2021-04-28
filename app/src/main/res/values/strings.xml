@@ -8,7 +8,7 @@
     <string name="action_register">Register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_username">Invalid username </string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="different_password">Password must be the same</string>
     <string name="login_failed">"Login failed"</string>
@@ -30,9 +30,20 @@
     <string name="cancel">Cancel</string>
     <string name="profile">Profile</string>
     <string name="profile_email">Email:</string>
-    <string name="profile_information">Profile Infomation:</string>
+    <string name="profile_information">Profile Information:</string>
     <string name="profile_name">Name:</string>
     <string name="profile_edit_profile">Edit Profile</string>
     <string name="empty_string">empty</string>
+    <string name="search_hint">search hint</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="register_failed">register failed</string>
+    <string name="firstname">FirstName</string>
+    <string name="lastname">LastName</string>
+    <string name="username">\@username</string>
+    <string name="invalid_email">invalid email</string>
+    <string name="invalid_first_name">invalid first name</string>
+    <string name="invalid_last_name">invalid last name</string>
+    <string name="invalid_re_password">passwords don\'t match</string>
+    <string name="pay">Pay</string>
 
 </resources>
